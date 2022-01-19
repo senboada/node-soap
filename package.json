@@ -1,0 +1,29 @@
+{
+  "name": "node-soap-example",
+  "version": "1.0.0",
+  "description": "A simple SOAP Server and Client using Node.js, express and node-soap (https://github.com/vpulim/node-soap)",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon .",
+    "test": "node client"
+  },
+  "keywords": [
+    "SOAP",
+    "node.js",
+    "express",
+    "SOAP-server",
+    "SOAP-client",
+    "server",
+    "client",
+    "web",
+    "service"
+  ],
+  "author": "Marco Galassi",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "soap": "^0.43.0"
+  }
+}
